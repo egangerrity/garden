@@ -1,0 +1,163 @@
+body {
+    width: 960px;
+    background-color: #a7c4a4;
+}
+h1 {
+    font-family: 'Skia', serif;
+    color: #fff;
+    font-size: 35px;
+    position: absolute;
+    left: 25px;
+    top: 70px;
+    z-index: 7;
+}
+
+
+/*intro styles is on the garden page*/
+
+.intro {
+   font-family: times;
+   color: #275131;
+   font-size: 22px;
+   letter-spacing: 1px;
+   text-align: left;
+   margin-left: 80px;
+   border-bottom: 5px solid #275131;
+   clear: left
+
+   
+}
+.main {
+    font-family: times;
+    color: #275131;
+    padding-left: -80px;
+    padding-right 40px;
+    padding-top: 20px;
+    text-align: justify;
+    letter-spacing: 1px;
+    margin-left: 80px;
+    border-bottom: 1px solid #ffffff;
+}
+
+
+
+
+
+
+
+/*Box1 to box5 are predefined squares.*/
+/*They are used independently on the index page.*/
+/*Color1 to color5 is also used independently.*/
+/*Box and color are combined is various ways in */
+/*a p tag to create varied sizes and colors.*/
+
+
+.box1 {
+    width: 75px;
+    height: 120px;
+    border-radius: 0%;
+    display: inline-block;
+    margin: 0px;
+    margin-left: -4px;
+    border: 1px solid #397744;
+}
+
+.box2 {
+    position: relative;
+    top: 25px;
+    width: 25px;
+    height: 170px;
+    border-radius: 0%;
+    display: inline-block;
+    margin-left: -4px;
+    border: 1px solid #397744;
+
+}
+
+.box3 {
+    position: relative;
+    top: 50px;
+    width: 45px;
+    height: 100px;
+    border-radius: 0%;
+    display: inline-block;
+    margin-left: -4px;
+    border: 1px solid #397744;
+
+}
+
+.box4 {
+    position: relative;
+    top: -30px;
+    width: 10px;
+    height: 180px;
+    border-radius: 0%;
+    display: inline-block;
+    margin-left: -4px;
+    border: 1px solid #397744;
+
+}
+
+.box5 {
+    position: relative;
+    top: 90px;
+    width: 25px;
+    height: 80px;
+    border-radius: 0%;
+    display: inline-block;
+    margin-left: -4px;
+    border: 1px solid #397744;
+
+}
+.color1 {
+    background-color: #8AD02F
+}
+
+.color2 {
+    background-color: #397744;
+}
+
+.color3 {
+    background-color: #89f442;
+}
+
+.color4 {
+    background-color: #3f9650;
+}
+
+.color5 {
+    background-color: #7ed68e;
+}
+
+ul {
+    list-style-type: none
+}
+
+li {
+    float: left;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    color: #397744;
+    background-color: transparent;
+    text-decoration: underline;
+}
+    /*#cef442 od*/
+    /*#89f442 od*/
+    /*#3f9650 od*/
+    /*#397744 od*/
+    /*#7ed68e od*/
+
+
+
+
